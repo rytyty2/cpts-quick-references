@@ -14,3 +14,4 @@ In this module, we will cover enumerating and leveraging four specific ACEs to h
 PS C:\htb> $SecPassword = ConvertTo-SecureString '<PASSWORD HERE>' -AsPlainText -Force
 PS C:\htb> $Cred = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\wley', $SecPassword)
 
+SyncMaster757
