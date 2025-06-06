@@ -15,3 +15,5 @@ PS C:\htb> $SecPassword = ConvertTo-SecureString '<PASSWORD HERE>' -AsPlainText 
 PS C:\htb> $Cred = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\wley', $SecPassword)
 
 SyncMaster757
+https://github.com/NetSPI/PowerUpSQL/wiki/PowerUpSQL-Cheat-Sheet
+https://github.com/dirkjanm/adidnsdump
