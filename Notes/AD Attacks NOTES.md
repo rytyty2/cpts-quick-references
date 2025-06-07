@@ -17,3 +17,5 @@ PS C:\htb> $Cred = New-Object System.Management.Automation.PSCredential('INLANEF
 SyncMaster757
 https://github.com/NetSPI/PowerUpSQL/wiki/PowerUpSQL-Cheat-Sheet
 https://github.com/dirkjanm/adidnsdump
+
+# Domain Trust
