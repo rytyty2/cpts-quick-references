@@ -19,3 +19,7 @@ https://github.com/NetSPI/PowerUpSQL/wiki/PowerUpSQL-Cheat-Sheet
 https://github.com/dirkjanm/adidnsdump
 
 # Domain Trust
+
+
+ReverseShell wraping using iconv and base64:
+![Uploading image.png…]()
