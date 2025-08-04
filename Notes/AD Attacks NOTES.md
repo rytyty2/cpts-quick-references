@@ -20,6 +20,6 @@ https://github.com/dirkjanm/adidnsdump
 
 # Domain Trust
 
-
+# Rev Shell
 ReverseShell wraping using iconv and base64:
 ![Uploading image.png…]()
