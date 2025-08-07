@@ -24,3 +24,5 @@ https://github.com/dirkjanm/adidnsdump
 ReverseShell wraping using iconv and base64:
 <img width="1280" height="811" alt="image" src="https://github.com/user-attachments/assets/4e9f697c-205b-41ed-a966-7d9e00eccd97" />
 
+https://github.com/antonioCoco/RunasCs/blob/master/compile_commands.txt 
+<img width="1016" height="391" alt="image" src="https://github.com/user-attachments/assets/2a74594d-78b8-43eb-8f3d-cd25031b9026" />
