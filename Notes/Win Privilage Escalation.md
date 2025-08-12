@@ -2,3 +2,6 @@
 SeImpersonate and SeAssignPrimaryToken - JuicyPotato Escalation
 PrintSpoofer and RoguePotato
 JuicyPotato doesn't work on Windows Server 2019 and Windows 10 build 1809 onwards. However, PrintSpoofer and RoguePotato can be used to leverage the same privileges and gain NT AUTHORITY\SYSTEM level access. This blog post goes in-depth on the PrintSpoofer tool, which can be used to abuse impersonation privileges on Windows 10 and Server 2019 hosts where JuicyPotato no longer works.
+
+
+https://github.com/geeksniper/windows-privilege-escalation?tab=readme-ov-file#eop---impersonation-privileges
