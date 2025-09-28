@@ -13,7 +13,7 @@ Check Startup Programs
 We can use WMIC to see what programs run at system startup. Suppose we have write permissions to the registry for a given binary or can overwrite a binary listed. In that case, we may be able to escalate privileges to another user the next time that the user logs in.
 Get-CimInstance Win32_StartupCommand | select Name, command, Location, User |fl
 
-general line of tought: 
+*** general line of tought:*** 
 1. what are the user privileges?
 2. what services are running ? (how to enumerate services with usefull info)
    dll injfection
