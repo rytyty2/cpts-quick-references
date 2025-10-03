@@ -29,7 +29,8 @@ Get-CimInstance Win32_StartupCommand | select Name, command, Location, User |fl
 <img width="738" height="201" alt="image" src="https://github.com/user-attachments/assets/80a68fe7-9345-46f8-8527-3bcbaafffb2e" />
 
 
-**Intresting technique: - Decrypt Credentials on the machine they where created **
+**Intresting technique: - Decrypt Credentials on the machine they where created**
+
 Use  
 
 ```
