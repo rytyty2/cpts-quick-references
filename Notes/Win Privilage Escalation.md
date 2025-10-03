@@ -26,12 +26,13 @@ Get-CimInstance Win32_StartupCommand | select Name, command, Location, User |fl
    dependency writable ?
 7. sensitive files readable ? 
 
-<img width="738" height="201" alt="image" src="https://github.com/user-attachments/assets/80a68fe7-9345-46f8-8527-3bcbaafffb2e" />
+
 
 
 **Intresting technique: - Decrypt Credentials on the machine they where created**
+<img width="738" height="201" alt="image" src="https://github.com/user-attachments/assets/80a68fe7-9345-46f8-8527-3bcbaafffb2e" />
 
-Use  
+Use: 
 
 ```
 $cred = Import-CliXml -Path connection.xml 
