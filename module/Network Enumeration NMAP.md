@@ -55,3 +55,13 @@
 | `--max-rtt-timeout 100ms` | Sets the specified time value as maximum RTT timeout. |
 | `--min-rate 300` | Sets the number of packets that will be sent simultaneously. |
 | `-T <0-5>` | Specifies the specific timing template. |
+
+## Intresting technique:
+```
+ports=$(nmap -Pn -p- --min-rate=1000 -T4 10.129.234.50 | grep ^[0-9] | cut -d '/' -f 1 |
+tr '\n' ',' | sed s/,$//)
+
+nmap -Pn -p$ports -sC -sV 10.129.234.50
+```
+
+
