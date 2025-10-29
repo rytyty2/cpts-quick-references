@@ -58,3 +58,8 @@ to read the full clear text password
 Using tcbpriv is done trough a poc - https://github.com/b4lisong/SeTcbPrivilege-Abuse 
 
 Or use Full powers https://github.com/itm4n/FullPowers to Potato stile attacks. 
+
+### Check for autologon
+
+```reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"```
+
